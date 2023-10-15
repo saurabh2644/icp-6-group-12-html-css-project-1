@@ -4,82 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kids content</title>
-    <style>
-        body{
-            background-color: rgb(18, 16, 16);
-            padding: 0;
-            margin: 0;
-        }
-        .navbar{
-            background-color: rgb(47, 44, 44);
-            padding: 5px;
-            display: flex;
-            height: 80px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .web-name{
-            color: red;
-            font-size: 40px;
-            margin-bottom: 50px;
-            margin-left: 50px;
-            top: -60px;
-        }
-        .menu-icon{
-            height: 35px;
-            width: 35px;
-            margin-bottom: 70px;
-        
-        }
-        .search-icon{
-            height: 35px;
-            width: 35px;
-            margin-top: 1px;
-            margin-bottom: 60px;
-            margin-left: 1100px;
-        }
-        .page-name{
-            color: #fff;
-            margin-left: 600px;
-            align-items: center;
-            
-        }
-        .first-heading{
-            color: #fff;
-            margin-top: 110px;
-           
-            
-        }
-        .image{
-            height:150px;
-            border-radius: 5px;
-            display: flex;
-            flex-direction:row-reverse;
-            flex-wrap: wrap;justify-content: space-around;
-        }
-        .header-container{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            
-        }
-        .second-heading{
-            color: #fff;
-            
-        }
-        .third-heading{
-            color: #fff;
-        }
-        .fourth-heading{
-            color: #fff;
-        }
-         @media only screen and (max-width:600px){
-            
-            
-         }
-        
-    </style>
 </head>
+
 <body>
     <div class="navbar">
     <img src="menu.png" class="menu-icon">
@@ -127,6 +53,3 @@
             <img src="https://rukminim2.flixcart.com/image/850/1000/jcc9ci80/poster/y/u/u/medium-pl-movie-maleficent-laptop-wall-poster-19-13-inches-matte-original-imaetdvca8gph3wc.jpeg?q=90" class="image">
             <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/58A827161C1155A28FEB3BDA7E9C0C435D7E785D439A43DD7AA7EDC12FAA646D/scale?width=1200&aspectRatio=1.78&format=jpeg" class="image">
         </div>
-
-    </body>
-    </html>

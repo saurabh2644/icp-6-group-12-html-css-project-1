@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(18, 16, 16);
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(47, 44, 44);
+    padding: 5px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.web-name{
+    color: red;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    top: -60px;
+}
+.menu-icon{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 70px;
+
+}
+.search-icon{
+    height: 35px;
+    width: 35px;
+    margin-top: 1px;
+    margin-bottom: 60px;
+    margin-left: 1100px;
+}
+.page-name{
+    color: #fff;
+    margin-left: 600px;
+    align-items: center;
+    
+}
+.first-heading{
+    color: #fff;
+    margin-top: 110px;
+   
+    
+}
+.image{
+    height:150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;justify-content: space-around;
+}
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.second-heading{
+    color: #fff;
+    
+}
+.third-heading{
+    color: #fff;
+}
+.fourth-heading{
+    color: #fff;
+}
