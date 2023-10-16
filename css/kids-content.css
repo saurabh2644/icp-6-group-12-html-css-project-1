@@ -21,7 +21,8 @@ body{
 .menu-icon{
     height: 35px;
     width: 35px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    margin-left: 10px;
 
 }
 .search-icon{
@@ -34,14 +35,12 @@ body{
 .page-name{
     color: #fff;
     margin-left: 600px;
-    align-items: center;
-    
+    margin-top: 30px;
+
 }
 .first-heading{
     color: #fff;
-    margin-top: 110px;
-   
-    
+    margin-top: 50px;
 }
 .image{
     height:150px;
@@ -50,9 +49,19 @@ body{
     flex-direction:row-reverse;
     flex-wrap: wrap;justify-content: space-around;
 }
+
 .image:hover{
-    transform: scale(1.10);
+    transform: scale(1.14);
 }
+.big-image{
+    max-height: 240px;
+    border-radius: 5px;
+}
+
+.big-image:hover{
+    transform: scale(1.14) ;
+}
+
 .header-container{
     display: flex;
     flex-wrap: wrap;
