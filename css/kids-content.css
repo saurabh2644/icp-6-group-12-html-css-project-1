@@ -50,6 +50,9 @@ body{
     flex-direction:row-reverse;
     flex-wrap: wrap;justify-content: space-around;
 }
+.image:hover{
+    transform: scale(1.10);
+}
 .header-container{
     display: flex;
     flex-wrap: wrap;
