@@ -4,13 +4,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.home-screen{
+    height: 600px;
+    width: 100%;
+}
 body{
-    background-image: url();
     background-color: #2f2f1e;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 ul{
     margin-left: 1000px;
@@ -31,6 +30,7 @@ ul li{
     background-color: black;
     color: white;
     box-shadow: 1px 1px 2px ;
+    padding-left: 13px;
 }
 #sign-in-button{
     height: 35px;
@@ -92,6 +92,10 @@ section{
     margin-top: 70px;
     margin-left: 70px;
 }
+#tv-image:hover{
+    height: 270px;
+   transition: 0.5s;
+}
 .sec-1-parent-1{
     height: 250px;
     width: 600px;
@@ -107,7 +111,86 @@ section{
 }
 #mobile2-image{
     height: 250px;
-    width: 450px;
+    width: 430px;
     margin-top: 70px;
     margin-left: 70px;
+}
+#mobile2-image:hover{
+    height: 270px;
+    width: 450px;
+   transition: 0.5s;
+}
+#mobile1-image{
+    height: 200px;
+    margin-left: 50px;
+    margin-right: -120px;
+    margin-top: 80px;
+}
+#mobile1-image:hover{
+    height: 220px;
+    transition: 0.5s;
+}
+#tv-image2{
+    height: 250px;
+    margin-top: 50px;
+}
+#tv-image2:hover{
+    height: 270px;
+    transition: 0.5s;
+}
+#childern-image{
+    height: 230px;
+    margin: 30px;
+    margin-right: -50px;
+}
+#childern-image:hover{
+    height: 250px;
+    margin: 30px;
+    margin-right: -50px;
+}
+.faq-section{
+    height: 800px;
+    width: 100%;
+    display: block;
+}
+.faq-title{
+    height: 100px;
+    width: 900px;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.faq-div{
+    height: 100px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.question{
+    height: 120px;
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.answer{
+    height: 70px;
+    width: 80%;
+    background-color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid;
+}
+.register-paragraph{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
 }
