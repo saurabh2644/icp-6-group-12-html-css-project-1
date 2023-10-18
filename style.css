@@ -1,0 +1,179 @@
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #404040;
+    height: 80px;
+    display: flex;
+    width: 100%;
+
+
+
+}
+
+.navmenu {
+    height: 33px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.brandname {
+    font-size: 50px;
+    color: red;
+    margin-left: 40px;
+    position: relative;
+    bottom: 13px;
+}
+
+.searchbar {
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 700px;
+    top: 18px;
+    box-shadow: 0 0 2px 2px whitesmoke;
+    font-size: 20px;
+
+}
+
+.navsearch {
+    height: 30px;
+    position: relative;
+    left: 710px;
+    top: 21px;
+    cursor: pointer;
+}
+
+.heading {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.headingpara {
+    color: white;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.description {
+    display: flex;
+
+}
+
+.desimg {
+    height: 400px;
+    width: 800px;
+    position: relative;
+    left: 230px;
+
+}
+
+.criket {}
+
+.cardgroup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.headcric {
+    color: white;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.criccard {}
+
+.criccardimg {
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 0 2px 2px gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.criccarddes {
+    color: white;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+
+.divthank {
+    height: 300px;
+    width: 100%;
+    background-color: ;
+}
+
+.thank {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.lowerhome{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    
+}
+
+    
+@media ( max-width:600px){
+    .searchbar {
+        height: 25px;
+        width: 120px;
+        border-radius: 20px;
+        position: relative;
+        left: 80px;
+        top: 18px;
+        box-shadow: 0 0 2px 2px whitesmoke;
+        font-size: 15px;
+}
+.navsearch {
+    height: 30px;
+    position: relative;
+    left: 90px;
+    top: 21px;
+    cursor: pointer;
+}
+.heading {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.headingpara {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.desimg {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    left: 30px;
+    top: 100px;
+
+}
+}

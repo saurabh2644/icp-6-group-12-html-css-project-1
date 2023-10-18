@@ -12,7 +12,7 @@ body{
     background-color: #2f2f1e;
 }
 ul{
-    margin-left: 1000px;
+    margin-left: 300px;
 }
 ul li{
     display: inline-block;
@@ -32,12 +32,18 @@ ul li{
     box-shadow: 1px 1px 2px ;
     padding-left: 13px;
 }
-#sign-in-button{
+
+.buttons{
     height: 35px;
     width: 80px;
     text-align: center;
-    background-color: red;
+    background-color: transparent;
     color: white;
+    /* border-top-right-radius: 10px; */
+    /* border-bottom-left-radius: 10px; */
+    padding: 5px;
+    box-shadow: 2px 2px 3px white;
+    cursor: pointer;
 }
 #kibble{
     font-family: 'Times New Roman', Times, serif;
