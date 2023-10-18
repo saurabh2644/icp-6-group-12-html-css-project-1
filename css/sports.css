@@ -54,18 +54,20 @@ body {
 
 .heading {
     color: white;
-    font-size: 70px;
+    font-size: 78px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     margin-top: 70px;
 }
 
+
 .headingpara {
     color: white;
-    font-size: 26px;
+    font-size: 30px;
     text-align: left;
     margin-left: 20px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .description {
@@ -74,10 +76,10 @@ body {
 }
 
 .desimg {
-    height: 400px;
-    width: 800px;
+    height: 450px;
+    width: 890px;
     position: relative;
-    left: 230px;
+    left: 110px;
 
 }
 
@@ -94,9 +96,21 @@ body {
     font-size: 36px;
     margin-top: 40px;
     margin-left: 20px;
+    width: 220px;
+   
+    
+    
+    
+}
+.headcric:hover{
+    box-shadow: 0 0 2px 2px white;
+    transform: scale(1.12);
 }
 
 .criccard {}
+.criccard:hover{
+    transform: scale(1.13);
+}
 
 .criccardimg {
     height: 200px;
@@ -133,6 +147,7 @@ body {
     margin-top: 100px;
     
 }
+
 
     
 @media ( max-width:600px){
@@ -175,5 +190,41 @@ body {
     left: 30px;
     top: 100px;
 
+}
+}
+@media ( min-width:601px) and ( max-width:1275px)
+{
+    
+    .searchbar
+     {
+        height: 25px;
+        width: 200px;
+        border-radius: 20px;
+        position: relative;
+        left: 150px;
+        top: 18px;
+        box-shadow: 0 0 2px 2px whitesmoke;
+        font-size: 15px;
+}
+.navsearch {
+    height: 30px;
+    position: relative;
+    left: 155px;
+    top: 21px;
+    cursor: pointer;
+}
+.desimg {
+    height: 320px;
+    width: 550px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.criccardimg {
+    height: 180px;
+    width: 250px;
+    box-shadow: 0 0 2px 2px gray;
+    cursor: pointer;
+    border-radius: 10px;
 }
 }
