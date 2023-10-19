@@ -28,6 +28,7 @@ display: none;
 }
 .row_posterLarge{
     max-height: 250px;
+    border-radius: 5px;
 }
 .row_posterLarge:hover{
     transform: scale(1.09);
@@ -228,4 +229,7 @@ display: none;
         transition: 0.3s;
     
     }
-    
+    .profile-img{
+        height: 50px;
+        width:50px;
+    }
