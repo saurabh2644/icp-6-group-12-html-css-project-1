@@ -50,6 +50,7 @@ body{
     color: #fff;
     margin-top:50px;
     padding-bottom: 30px;
+    padding-left: 40px;
 }
 .image{
     height:149px;
@@ -74,7 +75,7 @@ body{
 }
 
 .big-image:hover{
-    transform: scale(1.14) ;
+    transform: scale(1.10) ;
     
 }
 
@@ -88,17 +89,20 @@ body{
     color: #fff;
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-left: 40px;
     
 }
 .third-heading{
     color: #fff;
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-left: 40px;
 }
 .fourth-heading{
     color: #fff;
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-left: 40px;
 }
 @media only screen and (max-width: 600px){
 
@@ -169,7 +173,7 @@ body{
 
         .page-name{
             color: #fff;
-            margin-left: 340px;
+            margin-left: 510px;
             margin-top: 30px;
         }
         .search-icon{
@@ -177,7 +181,7 @@ body{
             width: 35px;
             margin-top: 1px;
             margin-bottom: 30px;
-            margin-left: 540px;
+            margin-left: 660px;
         }
        
         .big-image{
