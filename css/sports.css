@@ -147,6 +147,11 @@ body {
     margin-top: 100px;
     
 }
+.nav-logo{
+    width:160px;
+    object-fit: contain;
+    margin-left: 10px; 
+    }
 
 
     
