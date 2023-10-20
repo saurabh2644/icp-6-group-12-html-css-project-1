@@ -18,6 +18,11 @@ nav {
     background-color: rgb(20, 20, 20)
 }
 
+.nav-logo{
+    width:160px;
+    object-fit: contain;
+   margin-left: 20px;
+    }
 
 .leftSide {
     font-size: 40px;
